@@ -6,6 +6,6 @@ function scuberGreetingForFeet(someValue) {
     } else if (someValue > 2000) {
     message = 'I will gladly take your thirty bucks.';
   } else {
-    message = 'No can do.'
-  }
+    message = 'No can do.';
+  } return message;
   }
