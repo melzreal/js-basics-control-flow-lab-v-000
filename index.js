@@ -14,3 +14,16 @@ function scuberGreetingForFeet(someValue) {
 function ternaryCheckCity(city){
   return city == 'NYC' ?  'Ok, sounds good.' : 'No go.';
 }
+
+function switchOnCharmFromTip(goods){
+  switch (goods) {
+    case 'generous':
+       return 'Thank you so much.';
+    case 'not so generous':
+      return 'Thank you.'
+      break;
+    default: 'Bye.'
+
+  }
+
+}
