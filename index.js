@@ -5,6 +5,5 @@ function scuberGreetingForFeet(feet) {
       charge = 'This one is on me!';
     } else (feet > 2000) {
     charge = 'I will gladly take your thirty bucks.';
-    } 
-    return charge;
+    }
   }
