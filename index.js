@@ -24,7 +24,7 @@ function switchOnCharmFromTip(goods){
       mess = 'Thank you.';
     break;
     default: mess = 'Bye.';
-    
+
   }
  return mess;
 }
